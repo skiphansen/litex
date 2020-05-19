@@ -25,6 +25,7 @@ soc_software_packages = [
     "libcompiler_rt",
     "libbase",
     "libnet",
+    "libuz",
     "bios"
 ]
 
