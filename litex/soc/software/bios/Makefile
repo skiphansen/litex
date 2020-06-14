@@ -8,6 +8,7 @@ endif
 # Permit TFTP_SERVER_PORT override from shell environment / command line
 ifdef TFTP_SERVER_PORT
 CFLAGS += -DTFTP_SERVER_PORT=$(TFTP_SERVER_PORT)
+
 endif
 
 OBJECTS=isr.o sdram.o sdcard.o main.o boot-helper-$(CPU).o boot.o
